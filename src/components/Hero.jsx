@@ -10,13 +10,11 @@ const Hero = () => {
       <h1
         class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
       >
-        Get Real Time Attendance
-
-        <span class="sm:block"> Save Time! </span>
+       Automating Attendance System
+        <span class="sm:block"> ___  </span>
       </h1>
-
       <p class="mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
-        Get your attendance records on Facial Recognistion. Easy & Efficient Way to Save time and energy on attendance.
+       An AI/ML based model that helps you in automating the attendance system via facial recognition.
       </p>
 
       <div class="mt-8 flex flex-wrap justify-center gap-4">

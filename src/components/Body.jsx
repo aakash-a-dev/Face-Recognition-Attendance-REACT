@@ -26,29 +26,43 @@ const Body = () => {
       >
         Attendance Sheet
       </h1>
-            <table border="1" className="mx-auto max-w-4xl w-full whitespace-nowrap rounded-lg bg-white divide-y divide-gray-300">
-                <thead className="bg-gray-900 ">
-                <tr className="text-white text-left">
-                    <td className="font-semibold text-sm uppercase px-6 py-4">ID</td>
-                    <td className="font-semibold text-sm uppercase px-6 py-4">Author</td>
-                    <td className="font-semibold text-sm uppercase px-6 py-4">Type</td>
-                    <td className="font-semibold text-sm uppercase px-6 py-4">Username</td>
-                </tr>
-                </thead>{
-                    users.map((currUser)=>{
+      
+<div class="relative overflow-x-auto shadow-md sm:rounded-lg my-10 px-3">
+    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase dark:text-gray-400">
+            <tr>
+                <th scope="col" class="px-6 py-3 bg-gray-50 dark:bg-gray-800">
+                    ID
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Name
+                </th>
+                <th scope="col" class="px-6 py-3 bg-gray-50 dark:bg-gray-800">
+                    Email Address
+                </th>
+                <th scope="col" class="px-6 py-3">
+                    Username
+                </th>
+            </tr>
+        </thead>
+        <tbody>{
+                users.map((currUser)=>{
                    const {id, name, email, username} = currUser;
 
                    return(
-                    <tr className="text-left"key={id}>
-                        <td>{id}</td>
-                        <td>{name}</td>
-                        <td>{email}</td>
-                        <td>{username}</td>
+                    <tr class="border-b border-gray-200 dark:border-gray-700" key={id}>
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">{id}</th>
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">{name}</th>
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">{email}</th>
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">{username}</th>
                     </tr>
                    )
                     })
                 }
-            </table>
+        </tbody>
+    </table>
+</div>
+
         </div>
     );
 }
