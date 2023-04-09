@@ -2,7 +2,7 @@ import { React, useEffect, useState } from "react";
 
 
 const Body = () => {
-    let API = "https://attendance-api-zoga.vercel.app/attendance"
+    let API = "https://attendance-api-rdn8.vercel.app/attendance"
     const [users, setUsers] = useState([])
     const fetchAPIData = async (url) => {
         try {
