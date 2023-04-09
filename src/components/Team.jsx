@@ -22,7 +22,7 @@ const Team = () => {
                 <div class="w-full md:w-3/5 text-left p-6 md:p-4 space-y-2">
                     <p class="text-xl text-white font-bold">Yash Gaurav</p>
                     <p class="text-base text-gray-400 font-normal">AI/ML Modeling</p>
-                    <p class="text-base leading-relaxed text-gray-500 font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="text-base leading-relaxed text-gray-500 font-normal">I developed the AI model and played a role in training the model's dataset, utilizing Python programming language. Furthermore, I contributed towards identifying and implementing efficient techniques for the project.</p>
                     <div class="flex justify-start space-x-2">
                     <a href="https://www.linkedin.com/in/yashgaurav/" class="text-gray-500 hover:text-gray-600">
                             <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
@@ -44,7 +44,7 @@ const Team = () => {
                 <div class="w-full md:w-3/5 text-left p-4 md:p-4 space-y-2">
                     <p class="text-xl text-white font-bold">Kiran Kumari Kushwaha</p>
                     <p class="text-base text-gray-400 font-normal">AI/ML Modelling & Team Leader</p>
-                    <p class="text-base leading-relaxed text-gray-500 font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="text-base leading-relaxed text-gray-500 font-normal">I used to think I was pretty good at remembering faces, until I created a computer program that could do it better than me.</p>
                     <div class="flex justify-start space-x-2">
                     <a href="https://www.linkedin.com/in/kiran-k-608292178/" class="text-gray-500 hover:text-gray-600">
                             <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
@@ -66,7 +66,7 @@ const Team = () => {
                 <div class="w-full md:w-3/5 text-left p-4 md:p-4 space-y-2">
                     <p class="text-xl text-white font-bold">Aisha Sinha</p>
                     <p class="text-base text-gray-400 font-normal">API Testing & Deployment</p>
-                    <p class="text-base leading-relaxed text-gray-500 font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="text-base leading-relaxed text-gray-500 font-normal">I gained knowledge about technologies and platforms alien to me including Anaconda, Sypder, Firebase, and Vercel, as well as how to launch an API. Exploring this field was fascinating as well as challenging, and I am keen to work on more endeavors.</p>
                     <div class="flex justify-start space-x-2">
                     <a href="https://www.linkedin.com/in/aisha-sinha-931740265/" class="text-gray-500 hover:text-gray-600">
                             <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
@@ -88,7 +88,7 @@ const Team = () => {
                 <div class="w-full md:w-3/5 text-left p-6 md:p-4 space-y-2">
                     <p class="text-xl text-white font-bold">Aakash Amod Rajput</p>
                     <p class="text-base text-gray-400 font-normal">Web Interface Development</p>
-                    <p class="text-base leading-relaxed text-gray-500 font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="text-base leading-relaxed text-gray-500 font-normal">I utilized Vite and React to design the frontend of the web application, and incorporated Tailwind CSS to aid in the process. Additionally, I contributed to the deployment of both the APIs and the web app interfaces</p>
                     <div class="flex justify-start space-x-2">
                     <a href="https://www.linkedin.com/in/aakash-a-rajput/" class="text-gray-500 hover:text-gray-600">
                             <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
