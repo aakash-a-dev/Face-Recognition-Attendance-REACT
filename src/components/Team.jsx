@@ -44,7 +44,7 @@ const Team = () => {
                 <div class="w-full md:w-3/5 text-left p-4 md:p-4 space-y-2">
                     <p class="text-xl text-white font-bold">Kiran Kumari Kushwaha</p>
                     <p class="text-base text-gray-400 font-normal">AI/ML Modelling & Team Leader</p>
-                    <p class="text-base leading-relaxed text-gray-500 font-normal">I used to think I was pretty good at remembering faces, until we created a computer program that could do it better than me. I primarily worked on developing and training the AI/ML model. Learnt and implemented various tools like Haar Cascade, face recognition by python, dlib, OpenCV, HOG etc</p>
+                    <p class="text-base leading-relaxed text-gray-500 font-normal">I used to think I was pretty good at remembering faces, until we created a computer program that could do it better than me. I primarily worked on developing and training the AI/ML model using tools  like Haar Cascade, face recognition, dlib, OpenCV, HOG etc</p>
                     <div class="flex justify-start space-x-2">
                     <a href="https://www.linkedin.com/in/kiran-k-608292178/" class="text-gray-500 hover:text-gray-600">
                             <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
