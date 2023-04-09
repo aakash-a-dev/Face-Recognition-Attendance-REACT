@@ -2,7 +2,7 @@ import { React, useEffect, useState } from "react";
 
 
 const Body = () => {
-    let API = "https://jsonplaceholder.typicode.com/users"
+    let API = "https://attendance-api-zoga.vercel.app/attendance"
     const [users, setUsers] = useState([])
     const fetchAPIData = async (url) => {
         try {
@@ -31,30 +31,22 @@ const Body = () => {
     <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
         <thead class="text-xs text-gray-700 uppercase dark:text-gray-400">
             <tr>
-                <th scope="col" class="px-6 py-3 bg-gray-50 dark:bg-gray-800">
-                    ID
-                </th>
                 <th scope="col" class="px-6 py-3">
                     Name
                 </th>
-                <th scope="col" class="px-6 py-3 bg-gray-50 dark:bg-gray-800">
-                    Email Address
-                </th>
                 <th scope="col" class="px-6 py-3">
-                    Username
+                    Time Stamp
                 </th>
             </tr>
         </thead>
         <tbody>{
                 users.map((currUser)=>{
-                   const {id, name, email, username} = currUser;
+                   const {name, time} = currUser;
 
                    return(
-                    <tr class="border-b border-gray-200 dark:border-gray-700" key={id}>
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">{id}</th>
+                    <tr class="border-b border-gray-200 dark:border-gray-700" key={time}>
                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">{name}</th>
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">{email}</th>
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">{username}</th>
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800">{time}</th>
                     </tr>
                    )
                     })
